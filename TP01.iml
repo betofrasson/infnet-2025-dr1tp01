@@ -8,5 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="junit.jupiter.api" level="project" />
+    <orderEntry type="library" name="net.jqwik" level="project" />
+    <orderEntry type="library" name="assertj.core" level="project" />
+    <orderEntry type="library" name="mockito.all" level="project" />
   </component>
 </module>

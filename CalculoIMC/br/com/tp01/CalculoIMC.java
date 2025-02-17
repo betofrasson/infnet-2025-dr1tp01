@@ -55,9 +55,9 @@ public class CalculoIMC {
 	public static double calcularIMC(double peso, double altura) {
 		if (peso <= 0 || altura <= 0.5)
 			throw new IllegalArgumentException("Valores inválidos.");
-		else if (peso >= 500)
+		else if (peso >= 300)
 			throw new IllegalArgumentException("Valores inválidos.");
-		else if (altura >= 3.5)
+		else if (altura >= 2.5)
 			throw new IllegalArgumentException("Valores inválidos.");
 
 		return peso / (altura * altura);
